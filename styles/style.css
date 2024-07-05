@@ -27,8 +27,6 @@
 .header__logo-link {
   grid-area: logo;
 }
-.header__logo-image {
-}
 .header__menu {
   grid-area: menu;
 }
@@ -118,7 +116,6 @@
   padding: 10px 0 0 34px;
   display: flex;
   flex-direction: column;
-  
 }
 .sectionn_preview-greetings-title {
   font-family: "Audiowide", sans-serif;
@@ -163,7 +160,6 @@
   font-size: 16px;
   font-family: "Inter", sans-serif;
   line-height: 172%;
-  /* margin-bottom: 12px;  */
 }
 .smaller-text {
   font-size: 15px;
@@ -186,16 +182,42 @@
   color: #fff;
 }
 
-
 /* BELT */
-.belt{
-width: 100%;
-min-height: 88px;
-background-image: url(../images/belt_bckg.svg);
-background-size: ;
+
+.belt {
+  width: 100%;
+  min-height: 88px;
+  background-image: url(../images/belt_bckg.svg);
+  margin-bottom: 120px;
 }
 
+/* ARTIST SECTION */
 
+.section_artists {
+  width: 1160px;
+  min-height: 678px;
+  margin-left: 40px;
+}
+.artists_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 60px;
+}
+.artists_list-item {
+}
+.card_artist {
+  min-height: 309px;
+  min-width: 245px;
+}
+.artist-name {
+  min-height: 64px;
+  font-family: "DM Mono", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.08em;
+}
 /* FOOTER */
 
 .footer {
