@@ -197,6 +197,7 @@
   width: 1160px;
   min-height: 678px;
   margin-left: 40px;
+  margin-bottom: 240px;
 }
 .artists_list {
   display: grid;
@@ -217,6 +218,97 @@
   justify-content: center;
   align-items: center;
   letter-spacing: 0.08em;
+}
+
+/* SECTION STORY */
+
+.section_story {
+  width: 1160px;
+  min-height: 643px;
+  margin: 0 0 120px 40px;
+  display: grid;
+  grid-template-columns: 282px 878px; 
+  grid-template-rows: 105px 538px;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header"
+    "list content";
+}
+
+.section_story-title {
+  font-family: "Audiowide", sans-serif;
+  text-transform: uppercase;
+  font-size: 37px;
+  line-height: 107%;
+  letter-spacing: 0.01em;
+  grid-area: header;
+  text-align: center;
+}
+.section_story-title span {
+  color: #a8a8a8;
+  font-size: 38px;
+}
+.section_story-list {
+  grid-area: list;
+}
+
+.section_story-list .active {
+  background-color: #222222;
+  color: #8dfd1b;
+}
+.section_story-list-item {
+  font-family: "DM Mono", sans-serif;
+  font-family: 16px;
+  min-height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-wrapper {
+  background-color: #222222;
+}
+.section_story-content-wrapper {
+height: inherit;
+  padding: 60px ;
+  display: grid;
+  background-color: #222222;
+  grid-template-columns: 0.7fr 1.3fr; 
+  grid-template-rows: 0.6fr 1.4fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "img title"
+    "img text"; 
+    gap: 0px 40px; 
+}
+.section_story-content-title {
+  color: #8dfd1b;
+  font-family: "DM Mono", sans-serif;
+  font-size: 21px;
+  border-left: 2px solid #8dfd1b;
+  padding-left: 20px;
+  line-height: 152%;
+  grid-area: title;
+  padding-top: 12px;
+  height: 100px;
+}
+.section_story-text-wrapper {
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  padding: 11px 0 16px 0;
+  justify-content: space-between;
+}
+.section_story-content-img{
+  grid-area: img;
+}
+.section_story-text {
+  width: 522px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  line-height: 172%;
+}
+.section_story-text:last-child {
+  margin-bottom: 0;
 }
 /* FOOTER */
 
