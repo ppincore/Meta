@@ -308,7 +308,7 @@ height: inherit;
   line-height: 172%;
 }
 .section_story-text:last-child {
-  margin-bottom: 1;
+  margin-bottom: 0;
 }
 /* FOOTER */
 
