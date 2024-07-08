@@ -310,6 +310,15 @@ height: inherit;
 .section_story-text:last-child {
   margin-bottom: 0;
 }
+
+/* BELT IMAGE*/
+
+
+.img_belt{
+background-image: url(../images/belt_section.png);
+min-height: 240px;
+}
+
 /* FOOTER */
 
 .footer {
