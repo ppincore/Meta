@@ -317,6 +317,105 @@ height: inherit;
 .img_belt{
 background-image: url(../images/belt_section.png);
 min-height: 240px;
+margin-bottom: 120px;
+}
+
+/* SECTION ROADMAP */
+
+
+
+.section_roadmap {
+width: 1280px;
+margin: 0 80px;
+}
+
+.section_roadmap-title {
+  font-family: "Audiowide", sans-serif;
+  font-size: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 112px;
+
+
+
+}
+
+.section_roadmap-list {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.section_roadmap-list-item {
+width: 539px;
+min-height: 70px;
+border: 2px solid #8dfd1b;
+background-color: #222222;
+}
+
+.list-item-header {
+  display: grid;
+  grid-template-columns: 77px 468px;
+  grid-template-areas: 
+  "number title"
+  ;
+}
+
+.header_number {
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  font-family: "DM Mono", sans-serif;
+  font-size: 28px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #8dfd1b;
+  margin: 13px;
+  grid-area: number ;
+}
+.active-item{
+  background-color: #8dfd1b;
+}
+
+
+.header_title {
+  font-family: "DM Mono", sans-serif;
+  grid-area: title;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px;
+  text-transform: uppercase;
+}
+.header_title-sml {
+  font-size: 8px;
+  color: #8dfd1b;
+}
+.header_title-main{
+  font-size: 16px;
+}
+.list-item-content {
+  box-sizing:border-box ;
+min-height: 200px;
+border-top: 2px solid #8dfd1b;
+display: flex;
+flex-direction: row;
+}
+
+.content-text {
+
+}
+
+.first {
+
+}
+
+.image_wrapper img{
+width: 129px;
+height: 129px;
+border-radius: 5px;
 }
 
 /* FOOTER */
